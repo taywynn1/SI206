@@ -31,4 +31,5 @@ tag = soup.a
 
 css_soup = BeautifulSoup('<p class="body strikeout"></p>', 'lxml')
 #print(css_soup.p['class'])
-print(tag.string)
+#print(tag.string)
+print(css_soup.p.attrs)
